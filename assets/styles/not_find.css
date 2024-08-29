@@ -1,0 +1,71 @@
+
+.box .mouse {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    opacity: 0.2; /* Adjusts the opacity of the image */
+    z-index: -1; /* Places the image behind the box */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+@keyframes slideUpFromBottom {
+    0% {
+        transform: translateY(100vh); /* Start off-screen below the viewport */
+        opacity: 0; /* Optional: start with zero opacity */
+    }
+    100% {
+        transform: translateY(0); /* End at its final position */
+        opacity: 1; /* Optional: end with full opacity */
+    }
+}
+
+.fa-arrow-left {
+	background: #202030;
+	color: white;
+	padding: 13px;
+	border-radius: 100%;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	animation: moveLeft 0.2s forwards;
+	position: absolute;
+    top: 139px;
+    left: 179px;
+	border: 2px solid rgb(239, 241, 170);
+  }
+  
+.Error {
+    width: 434px;
+    height: 50%;
+    opacity: 0; /* Initial opacity for the fade-in effect */
+    position: relative; /* To allow movement */
+}
+
+.anim_Section .Error {
+    animation: slideUpFromBottom 2s ease-out forwards;
+}
+
+
+@media (max-width: 768px) {
+    .box .frame {
+        width: 70%;
+    }
+    .box .mouse {
+        display: none; /* Hide the image at screen widths of 768px or less */
+    }
+   
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .box .frame {
+        width: 39%;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .box .frame {
+        width: 30%;
+    }
+   
+}

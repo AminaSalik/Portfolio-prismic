@@ -1,0 +1,249 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title_{
+  text-align: left;
+  margin-left: 20px;
+  font-size:1.6vw ; 
+  margin-left: 30px;   
+}
+.description_{
+  font-size: 1.4vw;
+  width: 70%;
+  text-align: left;
+  margin-left: 30px;
+}
+.link_{
+  /* font-size: 1.2vw; */
+  color: #ffffff;
+  margin-right:76%;
+  margin-left: 30px;
+}
+.Tech_{
+  margin-left: 29px;
+  font-size: 1.2vw;
+  color: #ffffff;
+  margin-right:81%; 
+  margin-top: 12px;
+}
+.btn_Figma{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 7px 7px ;
+  margin-left: 20px;
+  border:  1px solid #eff1c5  ;
+  border-radius: 8px;
+  background-color: #202030;
+  color: #eff1c5;
+  margin-right: 13px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+}
+.btn_Figma:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.1); /* Scales the button up */
+  color: white;
+}
+.btn_wordpress{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 7px 7px;
+  border:  1px solid #eff1c5  ;
+  border-radius: 8px;
+  background-color: #202030;
+  color: #eff1c5;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+.btn_wordpress:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.1); /* Scales the button up */
+  color: white;
+}
+
+
+.btns {
+  margin-left: 1%;
+  width: 29%;
+  height: 14%;
+  box-sizing: border-box;
+}
+.btn_View {
+  background-color: #202030;
+  padding: 10px 20px;
+  font-size: 1vw;
+  border-radius: 10px;
+  position: fixed; 
+  top: 50%; 
+  left: 16%;
+  transform: translate(-50%, -50%); 
+  color: white;
+
+}
+
+.btn_View:hover {
+  background-color: rgba(0, 0, 0);
+ 
+  color: white;
+}
+.info_{
+  margin-top: 7px;
+}
+.title_{
+  text-align: left;
+  margin-left: 20px;
+  font-size:1.6vw ; 
+  margin-left: 30px;   
+}
+.btn_Figma{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 7px 7px ;
+  margin-left: 20px;
+  border:  1px solid #eff1c5  ;
+  border-radius: 8px;
+  background-color: #202030;
+  color: #eff1c5;
+  margin-right: 13px;
+  box-sizing: border-box;  
+}
+.btn_wordpress{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 7px 7px;
+  border:  1px solid #eff1c5  ;
+  border-radius: 8px;
+  background-color: #202030;
+  color: #eff1c5;
+  box-sizing: border-box;
+}
+
+.title_ {
+  font-size: 13px;
+  color: white;
+  /* margin-right: 107px; */
+}
+
+.img_Projct{ 
+  max-width: 6745px;
+  height:459px;
+  margin-left: 1px;
+  margin-top: -14px;
+  position: relative;  
+}
+/* .main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #202030;
+
+  position: relative;
+  overflow: hidden;
+} */
+
+
+
+.heading-wrapper h1 {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+      
+    
+  
+ 
+
+
+.Single_Project{
+  flex-direction: column;
+  width: 120%;
+display: grid;
+place-items: center;
+}
+.img_Projct{
+ 
+  max-width: 205px;
+  /* min-height: 20px; */
+  margin-left: -110px;
+  margin-top: -17px;
+  position: relative;
+
+  
+}
+.btn_View{
+  position: absolute;
+  top: 93px;
+  left: 34%;
+  transform: translateX(-50%);
+  font-size: 8px;
+  z-index: 10;
+}
+
+.info_{
+  margin-top: 20px;
+ }
+.title_{
+  font-size: 12PX;
+  margin-left: 14px;  
+}
+.description_{
+  font-size: 9px;
+  margin-left: 13px; 
+
+}
+.link_{
+  /* font-size: 10px; */
+
+  margin-right:69%;
+  margin-left: 0;
+
+}
+.Tech_{
+      margin-left: 11px;
+      font-size: 11px;
+      margin-right: 79%;
+      margin-top: 16px;
+  }
+.btns{
+      margin-left: -28%;
+      margin-top: -3%;
+      width: 90%;
+      height: 90%;
+  }
+.btn_Figma{
+      padding:3px 7px;
+      font-size: 10px;
+      margin-left: 53px;
+      margin-right: 13px;   
+  }
+.btn_wordpress{
+      
+      font-size: 10px;
+      padding: 3px 7px;
+       
+  } 
+}
+
+@media (min-width: 1025px) {
+
+ 
+ 
+  
+    .btn_View{
+      position: absolute; /* Positioning it within the .img_Project container */
+      top:230px; /* Center vertically */
+      left: 205px;
+      transform: translate(-50%, -50%); /* Centering adjustment */
+      font-size: 15px;
+      z-index: 10; 
+    }
+  
+     
+  
+}
