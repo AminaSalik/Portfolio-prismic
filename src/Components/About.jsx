@@ -28,7 +28,7 @@ function About() {
   return (
     <>
       <div>
-        <img className="frame" src={Frame} alt="Frame" />
+        <img className="frame" src={Frame} alt="About Me section - Decorative Frame" />
       </div>
 
 

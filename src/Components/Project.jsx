@@ -18,7 +18,7 @@ const Project = () => {
       await loadFull(tsParticles);
 
       tsParticles.load({
-        id: "section__",
+        id: "section_Project",
         options: {
           background: {
             repeat: "no-repeat",
@@ -138,7 +138,7 @@ const Project = () => {
 
   return (
     <div className='page___'>
-      <div className='main-container____'id='section__'>
+      <div className='main-container____'id='section_Project'>
         <div className='allCard' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
           <Link to="/" className="">
             <i className="fas fa-arrow-left"></i>
@@ -147,7 +147,7 @@ const Project = () => {
             {projects.map((project, index) => (
               <div key={index} className="card">
                 <a className="card-link" href="#0">
-                  <img className="card-img" src={project.image.url} alt={project.image.alt || 'Project Image'} />
+                  <img className="card-img" src={project.image.url} alt={project.image.alt || 'Image of Project'} />
                   <div className="card-details">
                     <div>
                       <h3 className="card-title">{RichText.asText(project.title)}</h3>

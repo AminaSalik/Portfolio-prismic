@@ -172,7 +172,7 @@ const Contact = () => {
                 </h1>
                 <div className='d-flex info__' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
                   <div className="">
-                    <img className="imghm" src={Hm} alt="Hm" />
+                    <img className="imghm" src={Hm} alt="Contact section - Decorative Image" />
                   </div>
                   <div className='information-per'>
                     <h2 className='title_Name'>Amina Salik</h2>

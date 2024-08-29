@@ -55,7 +55,7 @@ function Single() {
                 View Project
             </Link>
 
-            <img className='img_Projct slide-in' src={images[currentIndex]} alt="Restoring Humanity" />
+            <img className='img_Projct slide-in' src={images[currentIndex]} alt="Project Image - Restoring Humanity Theme" />
         </div>
 
     <div className='info_ slide-in' data-aos="fade-up"

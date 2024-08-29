@@ -238,7 +238,7 @@ useEffect(() => {
         
             <div>
                 
-                    <img className='mouse' src={Mouse} alt="Mouse Follower" />
+                    <img className='mouse' src={Mouse} alt="Mouse Follower on Home Page" />
                 </div>
 
                 <div className='information_ '>
@@ -256,7 +256,7 @@ useEffect(() => {
             </div>
 
             <div className="mr-3 star_">
-                <img src={Star} alt="" />
+                <img src={Star} alt="star Follower on Home Page" />
             </div>
 
             <div className='UI_'>
