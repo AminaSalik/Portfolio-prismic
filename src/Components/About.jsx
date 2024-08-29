@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { client } from './js/prismic';
 import { RichText } from 'prismic-reactjs';
-import '../assets/styles/About.css';
+import '../assets/styles/about.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Frame from '../assets/images/_Image_2024-08-06_at_5.40.37_PM__2_-removebg-preview.png';
 
