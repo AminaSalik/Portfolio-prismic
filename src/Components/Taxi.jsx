@@ -14,11 +14,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Project = () => {
  
-
-  
-
-
-
   return (
     <div className='page___'>
       <div className='main-container____'>
