@@ -1,11 +1,11 @@
 import React, { useEffect,useState } from 'react';
-import '../assets/styles/scrolLeft.css';
-import '../assets/styles/lyout.css';
+import '../../public/assets/styles/scrolLeft.css';
+import '../../public/assets/styles/lyout.css';
 import Location from './LocationInfo';
 import About from './About';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Mouse from '../assets/images/Mouse Follower (1).png';
-import Star from '../assets/images/Star 1.png';
+import Mouse from '../../public/assets/images/Mouse Follower (1).png';
+import Star from '../../public/assets/images/Star 1.png';
 // import { tsParticles } from "tsparticles";
 
 const Scrol_Left = () => {

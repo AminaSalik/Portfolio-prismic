@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../assets/styles/contentHome.css';
-import Hm from '../assets/images/profil.png';
+import '../../public/assets/styles/contentHome.css'
+import Hm from '../../public/assets/images/profil.png';
 import AOS from 'aos';
 import { loadFull } from 'tsparticles';
 import { Toaster, toast } from 'react-hot-toast';

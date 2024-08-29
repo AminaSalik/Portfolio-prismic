@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../assets/styles/scrolLeft.css';
+import '../../public/assets/styles/scrolLeft.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function LocationInfo() {

@@ -1,16 +1,16 @@
 import React, { useEffect,useState } from 'react';
-import '../assets/styles/Single.css';
+import '../../public/assets/styles/Single.css'
 import "./js/project"
 import AOS from 'aos'
 import { RichText } from 'prismic-reactjs';
 import { client } from './js/prismic';
 import 'aos/dist/aos.css'
 import { Link } from 'react-router-dom';
-import Frame1 from '../assets/images/Frame 1.png';
-import Frame2 from '../assets/images/Frame 21.png';
-import Frame from '../assets/images/1.jpg';
-import Fram3 from '../assets/images/javascript-voyage-slider-image1.png';
-import Frame4 from '../assets/images/pure-css-coverflow-slider.png.png';
+import Frame1 from '../../public/assets/images/Frame 1.png';
+import Frame2 from '../../public/assets/images/Frame 21.png';
+import Frame from '../../public/assets/images/1.jpg';
+import Fram3 from '../../public/assets/images/javascript-voyage-slider-image1.png';
+import Frame4 from '../../public/assets/images/pure-css-coverflow-slider.png.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

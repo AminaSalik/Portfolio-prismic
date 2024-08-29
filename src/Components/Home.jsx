@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { loadFull } from 'tsparticles';
-import '../assets/styles/home.css';
+import '../../public/assets/styles/home.css';
 import ContentHome from './Contact';
 import Scrol_Left from './Scrol_Left';
 import Single from './Single';

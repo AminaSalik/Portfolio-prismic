@@ -1,7 +1,7 @@
 import React,{ useEffect} from 'react';
-import '../assets/styles/not_find.css'; // Adjusted path
-import Mouse from '../assets/images/Mouse Follower (1).png';
-import Error from '../assets/images/Frame 23 (2).svg';
+import '../../public/assets/styles/not_find.css'; // Adjusted path
+import Mouse from '../../public/assets/images/Mouse Follower (1).png';
+import Error from '../../public/assets/images/Frame 23 (2).svg';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
