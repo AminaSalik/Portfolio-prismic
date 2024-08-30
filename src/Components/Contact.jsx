@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import '../../public/assets/styles/contentHome.css'
 import Hm from '../../public/assets/images/profil.png';
 import AOS from 'aos';
+
 import { loadFull } from 'tsparticles';
+
 import { Toaster, toast } from 'react-hot-toast';
 import emailjs from '@emailjs/browser';
 // import 'bootstrap/dist/css/bootstrap.min.css';

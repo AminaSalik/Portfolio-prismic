@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { client } from './js/prismic';
 import { RichText } from 'prismic-reactjs';
 import '../../public/assets/styles/about.css';
+// import ParticlesBackground from './ParticlesBackground';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Frame from '../../public/assets/images/_Image_2024-08-06_at_5.40.37_PM__2_-removebg-preview.png';
+import Frame from '../../public/assets/images/myProfil.png';
 
 function About() {
   const [aboutData, setAboutData] = useState(null);
