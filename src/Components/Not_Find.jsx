@@ -88,10 +88,7 @@ function  Not_Find() {
             <Link to="/" className="">
             <i className="  fa_left fas fa-arrow-left"></i>
           </Link>
-                <div className='' >
-              
-                    <img className='mouse' src={Mouse} alt="Mouse Follower" />
-                </div>
+               
                 <div className='anim_Section'>
                     <img className='Error'
                      src={Error} alt="Frame" />
