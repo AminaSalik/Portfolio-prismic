@@ -236,10 +236,7 @@ useEffect(() => {
           <div>
             {/* ================================================ */}
         
-            <div>
-                
-                    <img className='mouse' src={Mouse} alt="Mouse Follower on Home Page" />
-                </div>
+          
 
                 <div className='information_ '>
                     <div className='section_Im '>

@@ -86,7 +86,7 @@ function  Not_Find() {
         <div className="page___">
             <div className="main-container____ "id='section_NotFind'>
             <Link to="/" className="">
-            <i className="fas fa-arrow-left"></i>
+            <i className="  fa_left fas fa-arrow-left"></i>
           </Link>
                 <div className='' >
               
