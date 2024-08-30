@@ -50,7 +50,7 @@ const Project = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
       {
@@ -60,7 +60,7 @@ const Project = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: true,
-          autoplay: false,
+          autoplay: true,
           autoplaySpeed: 2000,
         }
       },
@@ -69,7 +69,7 @@ const Project = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          autoplay: false,
+          autoplay: true,
           autoplaySpeed: 2000,
         }
       }
