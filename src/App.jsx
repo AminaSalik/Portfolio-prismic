@@ -13,7 +13,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/Portfolio-prismic" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Single" element={<Single />} />
           <Route path="/notFind" element={<NotFind />} />
